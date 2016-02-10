@@ -2,7 +2,7 @@
 
 Crawler for static html-pages update.
 
-./config/environment.json parametres:
+#### environment.json parametres:
 
     debugMode               - enabling (true) or disabling (false) console.log verboses
     watchListUpdateInterval - time interval to update watching domains queue from redis
