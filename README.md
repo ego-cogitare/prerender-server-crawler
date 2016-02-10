@@ -20,7 +20,7 @@ Fetch domains from crawler:domains redis hset and parse sitemap.xml. Parsed data
 stored in crawler:watch redis hset.
 
 
-Supervisor config example:
+# H1 Supervisor config example:
 ```shell
 [program:phantomjsServer]
 command=node server.js
