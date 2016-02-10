@@ -16,7 +16,7 @@ stored in crawler:watch redis hset.
 
 
 ### Supervisor config example:
-```shell
+```ini
 [program:phantomjsServer]
 command=node server.js
 numprocs=1
