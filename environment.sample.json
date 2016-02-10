@@ -1,0 +1,9 @@
+{
+    "debugMode": true,
+    "watchListUpdateInterval": 43200,
+    "crawlerScrapInterval": 3,
+    "prerenderServerUrl": "http://localhost:3000/",
+    "redisServerHost": "127.0.0.1",
+    "redisServerPort": "6379",
+    "siteMapParseInterval": 43200
+}
