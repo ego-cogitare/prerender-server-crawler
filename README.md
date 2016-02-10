@@ -1,5 +1,4 @@
-################################################################################
- crawler.js
+### crawler.js
 
 Crawler for static html-pages update.
 
@@ -11,16 +10,12 @@ Crawler for static html-pages update.
     prerenderServerUrl      - prerender server (phantom server) url for static html-pages rendering
 
 
-
-
-################################################################################
- sitemapScrapper.js
-
+### sitemapScrapper.js
 Fetch domains from crawler:domains redis hset and parse sitemap.xml. Parsed data 
 stored in crawler:watch redis hset.
 
 
-# H1 Supervisor config example:
+### Supervisor config example:
 ```shell
 [program:phantomjsServer]
 command=node server.js
