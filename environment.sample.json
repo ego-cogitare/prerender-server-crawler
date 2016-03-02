@@ -1,9 +1,15 @@
 {
     "debugMode": true,
-    "watchListUpdateInterval": 43200,
-    "crawlerScrapInterval": 3,
-    "prerenderServerUrl": "http://localhost:3000/",
-    "redisServerHost": "127.0.0.1",
-    "redisServerPort": "6379",
-    "siteMapParseInterval": 43200
+    "prerender": {
+        "host": "127.0.0.10",
+        "port": 3000
+    },
+    "redis": {
+        "host": "127.0.0.10",
+        "port": 6379 
+    },
+    "gearman": {
+        "host": "127.0.0.1",
+        "port": 4730 
+    }
 }

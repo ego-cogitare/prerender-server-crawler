@@ -22,7 +22,8 @@
     "tree-kill": "0.0.6",
     "underscore": "^1.8.3",
     "url": "^0.11.0",
-    "weak": "^1.0.1"
+    "weak": "^1.0.1",
+    "node-gearman": "0.2.2"
   },
   "devDependencies": {},
   "scripts": {
